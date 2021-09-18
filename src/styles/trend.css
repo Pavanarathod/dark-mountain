@@ -1,0 +1,8 @@
+@tailwind components;
+
+@layer components {
+}
+
+.srollbar__hidden::-webkit-scrollbar {
+  display: none;
+}
