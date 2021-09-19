@@ -1,0 +1,30 @@
+@tailwind components;
+
+@layer components {
+}
+
+.story__one {
+  background-image: url("../../public/images/BeerOne.jpg");
+
+  height: 520px;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center center;
+}
+
+.story__two {
+  background-image: url("../../public/images/BeerTwo.jpg");
+
+  height: 250px;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center center;
+}
+.story__three {
+  background-image: url("../../public/images/BeerThree.jpg");
+
+  height: 250px;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center center;
+}

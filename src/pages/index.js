@@ -3,6 +3,7 @@ import Head from "next/head";
 import Hero from "../components/Hero";
 import MainLayout from "../components/MainLayout";
 import Popular from "../components/Popular";
+import Story from "../components/Story";
 import Trending from "../components/Trending";
 
 export default function Home({ drinks }) {
@@ -15,7 +16,8 @@ export default function Home({ drinks }) {
       <Hero />
       <MainLayout>
         <Popular />
-        <Trending drinks={drinks} />
+        {/* <Trending drinks={drinks} /> */}
+        <Story />
       </MainLayout>
     </div>
   );
