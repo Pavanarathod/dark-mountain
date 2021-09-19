@@ -16,7 +16,6 @@ export default function Home({ drinks }) {
       <MainLayout>
         <Popular />
         <Trending drinks={drinks} />
-        <div className="h-screen">Soon</div>
       </MainLayout>
     </div>
   );
