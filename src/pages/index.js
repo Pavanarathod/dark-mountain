@@ -21,8 +21,8 @@ export default function Home() {
         <Title spantitle="Spirits">Trending</Title>
         <Trending />
         <Story />
-        <Location />
       </MainLayout>
+      <Location />
     </div>
   );
 }
