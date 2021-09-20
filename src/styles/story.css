@@ -4,7 +4,7 @@
 }
 
 .story__one {
-  background-image: url("../../public/images/BeerOne.jpg");
+  background-image: url("../../public/images/StoryOne.jpg");
 
   height: 520px;
   object-fit: contain;
@@ -13,7 +13,7 @@
 }
 
 .story__two {
-  background-image: url("../../public/images/BeerTwo.jpg");
+  background-image: url("../../public/images/StoryTwo.jpg");
 
   height: 250px;
   object-fit: contain;
@@ -21,7 +21,7 @@
   background-position: center center;
 }
 .story__three {
-  background-image: url("../../public/images/BeerThree.jpg");
+  background-image: url("../../public/images/StoryThree.jpg");
 
   height: 250px;
   object-fit: contain;
