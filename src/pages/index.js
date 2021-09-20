@@ -1,6 +1,7 @@
 import axios from "axios";
 import Head from "next/head";
 import Hero from "../components/Hero";
+import Location from "../components/Location";
 import MainLayout from "../components/MainLayout";
 import Popular from "../components/Popular";
 import Story from "../components/Story";
@@ -20,7 +21,7 @@ export default function Home() {
         <Title spantitle="Spirits">Trending</Title>
         <Trending />
         <Story />
-        <div className="h-screen">one</div>
+        <Location />
       </MainLayout>
     </div>
   );

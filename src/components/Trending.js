@@ -14,13 +14,13 @@ const Trending = () => {
   };
 
   return (
-    <section className="relative">
+    <section className="">
       {trends.map((trend, index) => {
         if (current === index) {
           return (
             <div
               key={trend.id}
-              className="grid grid-cols-2 items-center transition duration-500 ease-in-out py-10 px-3 bg-gray-50"
+              className="grid grid-cols-2 items-center  py-10 px-3 bg-gray-50 transition delay-150 duration-300 ease-in-out"
             >
               <div className="py-10 flex flex-col space-y-5 items-start w-80 lg:ml-32">
                 <h1 className="text-2xl md:text-5xl font-serif">
@@ -33,7 +33,7 @@ const Trending = () => {
                   Discover More
                 </button>
               </div>
-              <div className=" grid place-content-end py-10">
+              <div className=" grid place-content-end">
                 <img
                   src={trend.image}
                   alt="Logo"
