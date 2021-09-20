@@ -1,7 +1,7 @@
 export const trends = [
   {
     id: 1,
-    title: "San Miguel",
+    title: "Heineken",
     image: "/images/Bone.png",
     description:
       "Always refreshing to see something you recognise. Cold, fresh, high quality Heineken. Enjoyed near and far since 1873.",

@@ -5,6 +5,7 @@ import MainLayout from "../components/MainLayout";
 import Popular from "../components/Popular";
 import Story from "../components/Story";
 import Title from "../components/Title";
+import Trending from "../components/Trending";
 
 export default function Home() {
   return (
@@ -16,8 +17,10 @@ export default function Home() {
       <Hero />
       <MainLayout>
         <Popular />
-        <Story />
         <Title spantitle="Spirits">Trending</Title>
+        <Trending />
+        <Story />
+        <div className="h-screen">one</div>
       </MainLayout>
     </div>
   );

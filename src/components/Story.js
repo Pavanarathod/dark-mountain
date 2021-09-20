@@ -2,7 +2,7 @@ const Story = () => {
   return (
     <section className="py-16 px-3">
       <div>
-        <h1 className="text-center text-5xl sm:text-7xl lg:text-9xl font-serif">
+        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-serif">
           History of Dark <span className="text-red-700">Mountain</span>
         </h1>
       </div>
