@@ -23,17 +23,17 @@ const Location = () => {
             <input
               type="text"
               placeholder="Country"
-              className="w-full py-3 p-2 font-mono border border-red-700 focus:outline-none rounded-md bg-gray-50"
+              className="w-full py-3 p-2 font-mono border border-red-700 focus:outline-none rounded-md"
             />
             <input
               type="text"
               placeholder="State"
-              className="w-full py-3 p-2 font-mono border border-red-700 focus:outline-none rounded-md bg-gray-50"
+              className="w-full py-3 p-2 font-mono border border-red-700 focus:outline-none rounded-md"
             />
             <input
               type="text"
               placeholder="Place"
-              className="w-full py-3 p-2 font-mono border border-red-700 focus:outline-none rounded-md bg-gray-50"
+              className="w-full py-3 p-2 font-mono border border-red-700 focus:outline-none rounded-md"
             />
             <button className="bg-red-700 px-8 rounded-md py-2 text-white font-mono">
               Search

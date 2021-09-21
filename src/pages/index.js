@@ -1,5 +1,6 @@
 import axios from "axios";
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Location from "../components/Location";
 import MainLayout from "../components/MainLayout";
@@ -23,6 +24,7 @@ export default function Home() {
         <Story />
       </MainLayout>
       <Location />
+      <Footer />
     </div>
   );
 }
